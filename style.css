@@ -1,0 +1,359 @@
+*{
+    box-sizing:border-box;
+    }
+    body{
+        margin: 0px;
+        padding: 0px;
+    }
+    .navbar{
+        overflow: hidden;
+    }
+    .navbar a {
+        color:black;
+        float: left;
+        text-decoration: none;
+        text-align: center;
+        padding-left:9%;
+        padding-top:5%;
+    }
+    .navbar button{
+        color:black;
+        float: left;
+        text-decoration: none;
+        font-size: 17px;
+        text-align: center;
+        margin-top:4%;
+      float: right;
+      margin-right:10%;
+    }
+  .active{
+    font-weight: bold;
+    font-size: 25px;
+  }
+  .content{
+    width: 200px;
+    height: 50px;
+    font-size:25px;
+    border: 2px solid black;
+    font-weight: bold;
+     background-color: white;
+  }
+    .active{
+      color: black;
+      font-weight: bold; 
+    }
+    .hadding{
+        font-size:40px;
+        margin-top: 0px;
+    }
+    .align-center{
+        text-align: center;
+    }
+    .paraghraf{
+        font-size: 20px;
+    }
+    .Reserve-Ticket{
+        background-color: #333;
+        width: 200px;
+        height:50px;
+        font-size: 20px;
+        color: white;
+    }
+    
+    .img1{
+        width:100%;
+    }
+    .img-width{
+        width:100%;
+    }
+    .img2{
+        width:100%;
+        height: 400px;
+    }
+    .img3{
+        width:70%;
+        height:250px;
+    }
+    .img4{
+        width:100%;
+        height:450px;   
+    } 
+    .img5{
+        width:270px;
+        height:400px;
+    }  
+    .img6{
+        width:60px;
+        height:60px;
+        margin: auto;
+        display: block;
+        margin-top:50px
+    }
+    .first-name{
+        width:300px;
+        height:50px;
+        border: 2px solid black;
+        font-size: 22px;
+        justify-content: center;
+        justify-content: space-between;
+    }
+    .last-name{
+        width:300px;
+        height:50px;
+        border: 2px solid black;
+        font-size: 22px;
+        justify-content: center;
+        justify-content: space-between;
+    }
+    .textarea{
+        width:300px;
+        height:200px;
+        border: 2px solid black;
+        font-size: 22px;
+        justify-content: center;
+        justify-content: space-between;
+    }
+    .img7{
+        width:100%;
+        height:450px;
+    }
+    .last{
+        margin: auto;
+        display: block;
+    }
+    .sumbit{
+        background-color: #333;
+        width: 200px;
+        height:50px;
+        font-size: 20px;
+        color: white;
+    }
+    .Contact{
+        border: 2px solid black;
+        float: right;
+        background-color: white;
+        width: 130px;
+       height: 30px;
+       font-weight: bold;
+       font-size: 17px;
+    }
+    .Contact:hover{
+        background-color:#333;
+        color: white;
+        font-weight: bold;
+    }
+    .undrline{
+    text-decoration: underline;
+    }
+    .flex-container{
+    display: flex;
+    flex-wrap: wrap;
+    justify-content:space-around;
+}
+.flex-container>div.one{
+    margin: 10px;
+    padding: 20px;
+    width:400px;
+}
+.flex-container>div.two{
+    margin: 10px;
+    padding: 20px;
+    width:600px;
+    height:400px;
+    
+}
+.create{
+background-color: #333;
+width: 100%;
+color: white;
+margin-top: 5%;
+height: 300px;
+text-align: center;
+    }  
+    .My-Travel{
+color: white;
+width:170px;
+font-size: 19px;
+font-weight: bold;
+height: 40px;
+background-color:#333;
+border: 2px solid white;
+margin-top:1%;
+    }   
+    .My-Travel:hover{
+        background-color:white;
+        color: #333;
+        font-weight: bold;
+    }
+
+    .container{
+    display: flex;
+    flex-wrap: wrap;
+    justify-content:space-around;
+}
+.container>div.one{
+    margin: 10px;
+    padding: 20px;
+    width:400px;
+}
+.container>div.two{
+    margin: 10px;
+    padding: 20px;
+    width:400px;
+}
+.container>div.three{
+    margin: 10px;
+    padding: 20px;
+    width:400px;
+} 
+
+
+.imgTwo{
+    display: flex;
+    justify-content: center;
+}
+
+.flex{
+    display: flex;
+    flex-wrap: wrap;
+    width:100%;
+    margin-top:5%;
+justify-content:center;
+}
+.flex>div.one{
+    padding: 20px;
+    width:450px;
+}
+.flex>div.two{
+    width:700px;
+    margin-top: 20px;
+}
+
+.flex-co{
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+    padding:40px;
+    width: 100%;
+    text-align: justify;
+}
+.flex-co>div.one{
+    width:250px;
+    font-size:15px;
+}
+.flex-co>div.two{
+    width:300px;
+    padding:20px;
+}
+.logo{
+    display:block;
+    margin: auto;
+   }
+   .see-places{
+    text-align: center;
+    font-size:59px;
+    margin-top: 5%;
+    color: #333;
+    font-style: italic;
+   }
+   @media screen and (max-width:200px) {
+    .see-places{
+        font-size:30px;
+    } 
+   }
+   @media screen and (max-width:600px) {
+    .see-places{
+        font-size:30px;
+    } 
+   }
+   .dolor{
+    text-align: center;
+   }
+   @media screen and (max-width:286px) {
+    .dolor{
+        font-size:10px;
+    } 
+   }
+
+
+   .black{
+    display: flex;
+    flex-wrap: wrap;
+    justify-content:center;
+    width: 100%;
+    margin-top:5%;
+    background-color: #333;
+    color:white;
+}
+.black>div.one{
+    margin: 10px;
+    width:600px;
+    text-align: justify;
+    justify-content: center;
+}
+.black>div.two{
+    margin: 10px;
+    width:600px;
+}
+
+
+.lorm{
+    display: flex;
+    flex-wrap: wrap;
+    justify-content:center;
+    width: 100%;
+    margin-top:5%;
+}
+.lorm>div.one{
+    margin:2%;
+    width:600px;
+    height:auto;
+}
+.lorm>div.two{
+    margin:2%;
+    width:600px;
+    height:auto;    
+}
+
+
+.profile{
+    display: flex;
+    flex-wrap: wrap;
+    justify-content:center;
+    width: 100%;
+    margin-top:5%;
+}
+.profile>div.profile-logo{
+    margin: 10px;
+    width:400px;
+    height:300px;
+    border: 2px solid black;
+    border-radius: 20px;
+}
+.be-updated{
+    display: flex;
+    flex-wrap: wrap;
+    width: 100%;
+    justify-content: center;
+}
+.be-updated>div.one{
+    margin: 10px;
+    padding: 20px;
+    width:500px;
+  align-items: center;
+}
+
+
+.footer{
+    display: flex;
+    flex-wrap: wrap;
+    width:100%;
+    margin-top:5%;
+    background-color: #f1f1f1;
+    height: auto;
+}
+.footer>div.one{
+    margin: 50px;
+    width:200px;
+    height:auto;
+}
